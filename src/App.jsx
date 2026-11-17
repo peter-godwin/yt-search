@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { searchVideos } from "./api.js";
 import { decode, formatDuration, formatViews, timeAgo } from "./format.js";
+import './DoesNotExist.jsx'
 
 const SUGGESTIONS = ["lo-fi coding mix", "sourdough for beginners", "Lagos street food", "react hooks explained"];
 
