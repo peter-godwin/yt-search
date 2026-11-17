@@ -13,7 +13,6 @@ async function get(path, params) {
   return data;
 }
 
-// search.list gives titles and thumbnails; videos.list adds duration and view counts.
 export async function searchVideos(query, pageToken) {
   const search = await get("search", {
     part: "snippet",
